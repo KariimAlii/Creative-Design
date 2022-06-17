@@ -1,0 +1,233 @@
+
+@media (max-width:1600px) {
+    .form-img , .form {
+        width:30%;
+    }
+    .floating-bg {
+        top:-110vw;
+    }
+    .main-heading {
+        top:30vw;
+    }
+}
+@media (max-width:1400px) {
+    html {
+        font-size: 50%;
+    }
+    .section-2 {
+        height:fit-content;
+    }
+    .section-3 {
+        height: fit-content;
+    }
+    .team-member {
+        width: 30%;
+        margin:10rem 10rem;
+    }
+    .customers-wrapper {
+        height: 70%;
+        flex-wrap: wrap;
+    }
+    .team-wrapper {
+        flex-wrap: wrap;
+        height: fit-content;
+    }
+    
+    .customer-card{
+        margin:10rem 15rem;
+    }
+    .team-member ul li {
+        font-size: 2rem;
+    }
+    
+}
+@media (max-width:1260px) {
+    .team-member ul li {
+        font-size: 1.5rem;
+    }
+}
+@media (max-width:1200px) {
+    .floating-bg {
+        top:-100vw;
+    }
+    .main-heading {
+        top:40vw;
+        width:70%;
+    }
+
+    .form-img {
+        display: none;
+    }
+    .form {
+        width:60%;
+        height:70%;
+        transform: none;
+    }
+    .form:hover {
+        transform: translateY(-3rem);
+        box-shadow: 3rem 3rem 2rem rgb(204, 203, 203);
+    }
+    
+    
+}
+@media (max-width:1000px) {
+    .floating-bg {
+        top:-90vw;
+    }
+    .main-heading {
+        top:40vw;
+        width:80%;
+    }
+    .section-2 {
+        height: fit-content;
+    }
+    .customers-wrapper {
+        
+        flex-direction: column;
+        height: 100%;
+        align-items: center;
+        
+        
+    }
+    .team-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .team-member {
+        width:40%;
+    }
+    .team-member ul li {
+        font-size: 2rem;
+    }
+    .team-member:first-child {
+        align-self: center;
+    }
+    .team-member:last-child {
+        align-self: center;
+    }
+    .customer-card {
+        width:32%;
+        margin-top: 8rem;
+        margin:10rem 0 ;
+    }
+    .customer-card:first-child {
+        align-self: center;
+    }
+    .customer-card:last-child {
+        align-self: center;
+    }
+}
+@media (max-width:900px) {
+    .team-member {
+        width:50%;
+    }
+    .team-member ul li {
+        font-size: 2rem;
+    }
+}
+@media (max-width:860px) {
+    .main-heading {
+        font-size: 6rem;
+        width:70%;
+    }
+    .customer-card {
+        width: 40%;
+    }
+}
+@media (max-width:760px) {
+    .main-heading {
+        font-size: 5rem;
+        width:80%;
+        top:50vw;
+    }
+    .floating-bg {
+        top:-80vw;
+    }
+    .customer-card {
+        width: 50%;
+    }
+    .team-member {
+        width: 70%;
+        margin:5rem 0;
+    }
+    .team-member ul li {
+        font-size: 1.5rem;
+    }
+}
+@media (max-width:650px) {
+    .form {
+        width: 80%;
+        
+        
+    }
+}
+@media (max-width:560px) {
+    .section-heading {
+        font-size: 7rem;
+    }
+    .main-heading {
+        font-size: 4rem;
+        width:80%;
+        top:70vw;
+    }
+    .floating-bg {
+        top:-60vw;
+    }
+    .customer-card {
+        width:65%
+    }
+    .form-container {
+        width: 80%;
+        height: fit-content;
+        background-color: transparent;
+        margin:10rem 0;
+    }
+    .form {
+        width: 100%;
+        height: fit-content;
+        
+    }
+    .form:hover {
+        transform: translateY(-3rem);
+        box-shadow: 3rem 3rem 2rem rgb(204, 203, 203);
+    }
+    .form input {
+        margin:1rem 0;
+    }
+    .section-4 {
+        height: fit-content;
+    }
+}
+
+@media (max-width:460px) {
+    
+    .main-heading {
+        font-size: 3rem;
+        
+    }
+    
+    .copyright {
+        font-size: 2rem;
+        
+    }
+    
+}
+@media (max-width:400px) {
+    .customer-card {
+        width:75%
+    }
+}
+@media (max-width:370px) {
+    .section-heading {
+        font-size: 5rem;
+    }
+    .main-heading {
+        font-size: 2rem;
+        top:90vw;
+        
+    }
+    .floating-bg {
+        top:-40vw;
+    }
+    
+}
